@@ -1,0 +1,1 @@
+el rebase trae lo cambios dea tu rama de una forma en la que es mas limpia en cambio el marge desfaza es linea de tiempo.

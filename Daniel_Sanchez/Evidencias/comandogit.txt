@@ -1,0 +1,13 @@
+COMANDO GIT
+
+1. git clone https://github.com/Santiag0gopenux2024/PruebaSem1---Linux-Git.git
+2. git checkout -b daniel
+3. git log 
+4. git status 
+5. git fetch origin master
+6. git pull origin master
+7. git chechout master/daniel
+8. git push daniel
+10. git rebase master
+11. git branch daniel
+
