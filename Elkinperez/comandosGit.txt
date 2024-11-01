@@ -1,0 +1,32 @@
+mkdir prueba-gopenux
+
+touch pruebaSemUno.txt 
+
+vim pruebaSemUno.txt 
+
+prueba-gopenux cd src 
+
+prueba-gopenux mkdir src
+
+prueba-gopenux wget url
+
+prueba-gopenux tar -czvf src.tar.gz src
+
+prueba-gopenux ls -lh 
+
+-grep -rnw 'prueba-gopenux/' -e "GOPENUX"
+
+sudo groupadd desarrolladores
+
+cut -d : -f 1 /etc/group
+
+sudo useradd usuario_developer
+
+sudo usermod -aG desarrolladores usuario_developer
+
+cat /etc/passwd
+
+groups usuario_developer
+
+sudo passwd usuario_developer
+
