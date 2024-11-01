@@ -3,3 +3,7 @@ DIFERENCIAS ENTRE MERGE Y REBASE
 
 git merge crea un commit nuevo donde une las ramas, siguiendo pero con lo que venia haciendo, todo esto sin elimiar lo que se estaba haciendo.
 git rabase lo que hace es reescribir lo que esta en la rama principal
+
+CHERRY-PICK
+
+ESte lo que hace es hagarrar los cambios que ya estan confirmados en una rama y aplicarlos a otra

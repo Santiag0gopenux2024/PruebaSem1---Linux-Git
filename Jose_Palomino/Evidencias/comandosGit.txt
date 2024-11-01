@@ -11,3 +11,9 @@ COMANDOS UTILIZADOS EN GIT
 -git push origin jose
 -git checkout master
 -git branch -D jose
+-git rebase
+-git rebase -i HEAD~2
+-git cherry-pick
+-git branch
+-git branch --list
+-git branch -m jose-actualizada
