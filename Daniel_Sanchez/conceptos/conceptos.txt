@@ -1,1 +1,3 @@
 el rebase trae lo cambios dea tu rama de una forma en la que es mas limpia en cambio el marge desfaza es linea de tiempo.
+
+comando cherry-pick: s un potente comando que permite que las confirmaciones arbitrarias de Git se elijan por referencia y se añadan al actual HEAD de trabajo. La ejecución de cherry-pick es el acto de elegir una confirmación de una rama y aplicarla a otra.
