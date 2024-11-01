@@ -1,0 +1,65 @@
+-----   Prueba Semana 1 - Linux y Git   -----
+
+TIEMPO ESTIMADO: 3 horas.
+
+Restricciones: No se permite el uso de IA.
+
+
+
+PARTE #1 (LINUX) Todos los puntos que verá en esta parte de la prueba deben hacerse en la terminal.
+
+Lea detenidamente cada uno de los puntos solicitados para que pueda cumplir con ellos, no olvide:
+(Debe tomar Screenshot de cada uno de los puntos solicitados para que posteriormente los suba al repositorio.)
+
+1. Abrir su terminal y desde la carpeta home de su usuario crear una carpeta llamada "prueba-gopenux"
+2. Acceder a la carpeta y crear un archivo llamado "pruebaSemUno.txt"
+3. En ese archivo debe agregar desde la terminal el texto: "Hola! Soy la prueba #1 - GOPENUX"
+4. Crea una carpeta llamada "src" dentro de "prueba-gopenux" y descarga un archivo de texto desde la URL proporcionada a continuación:
+
+        URL: https://www.w3.org/TR/PNG/iso_8859-1.txt
+
+5. Mostrar el texto contenido en el archivo que fue descargado por usted, seguidamente comprimirá la carpeta src en formato .tar.gz que muestre el proceso.
+6. En la carpeta llamada "prueba-gopenux" deberá de listar todo lo existente en esa carpeta con los detalles de permisos, tamaño etc.
+7. Debe desde su carpeta Home buscar la palabra "GOPENUX" en el archivo prueba.txt e indicar en qué número de línea se encuentra.
+
+Configuración y uso de grupos:
+
+8. Debe de crear un nuevo grupo llamado "desarrolladores"
+9. Verifique la creación del grupo mostrando los grupos existentes en el sistema.
+10. Cree un usuario llamado "usuario_developer" y asígnelo al grupo "desarrolladores"
+11. Verifique que el user fue creado correctamente mostrando que exista.
+12. Verifique en el user "usuario_developer" pertenezca al grupo "desarrolladores" mostrando los grupos SOLAMENTE DE ESE USER.
+13. Cambie la contraseña del user "usuario_developer" y cambie la contraseña por "gopenuxLab123"
+14. Cree un archivo en el directorio home de "usuario_developer" llamado "proyecto.txt" y debe tener de contenido "Este es un proyecto del grupo desarrolladores"
+15. Verifique que el archivo "proyecto.txt" fue creado exitosamente mostrando su contenido.
+16. Modifique los permisos del archivo "proyecto.txt" para que solo el propietario tenga permisos de escritura, el grupo y los otros solo tienen permiso de lectura.
+17. Finalmente, elimine el usuario creado "usuario_developer" y luego el grupo "desarrolladores".
+
+Monitoreo e información del sistema:
+
+18. Liste todos los procesos de ejecución en tiempo real, incluido los recursos que están siendo utilizados.
+19. Liste toda la información de su sistema, donde se pueda observar el sistema operativo, la Shell que está utilizándose, modelo de CPU, cantidad de memoria etc.
+20. Muestre el uso del sistema de archivos y la cantidad de espacio libre en los discos, donde pueda apreciar el espacio usado y disponible.
+
+
+
+PARTE #2 (GIT)
+
+Repositorio de GitHub: https://github.com/Santiag0gopenux2024/PruebaSem1---Linux-Git.git
+
+1. Clona el repositorio mencionado al inicio, en donde te encuentras como colaborador.
+2. Después de clonar el repositorio, crea una nueva rama con tu nombre, para empezar a realizar los demás puntos descritos aquí.
+3. Crea una carpeta personal (que debe llevar tu nombre y apellido), allí crea una subcarpeta llamada evidencias, donde irán en un archivo de texto con los comandos de Git utilizados y los Screenshot de los puntos de la prueba de Linux (en un archivo llamado "Linux.md").
+4. En tu carpeta personal, crea un archivo de texto llamado Conceptos.txt y escribe una explicación de las principales diferencias entre MERGE y REBASE en Git usando tus propias palabras.
+5. Realiza un commit con los cambios realizados hasta el momento. Cada commit debe describir específicamente el cambio realizado (Los commits se realizarán en inglés y con la primera letra en Mayúscula, si por algún motivo no se realiza así debería aplicar un comando que permite modificar el mensaje del commit).
+6. Sube tu cambio al repositorio, no sin antes verificar si te encuentras sincronizado con la rama master, y si tu rama master está sincronizada con el repositorio (de no ser así debes sincronizar la rama master y aplicar un REBASE a tu rama para que quede correctamente sincronizada a la hora de subir tu commit).
+7. Después de subir tu cambio, crea el Pull Request especificando en el comentario lo que hiciste, ese PR será aprobado solo por un colaborador externo que no esté presentando la prueba (Néstor o Santiago). (Si vemos que tu cambio afecta la rama master el Pull Request será rechazados y debes solucionar el problema para que pueda ser integrado correctamente).
+8. Después de que tu rama sea integrada a master, debes eliminar tu rama integrada "tu nombre" en master, localmente, y verificar que master esté sincronizada localmente.
+9. Si está sincronizada, crea dos ramas nuevas a partir de master, una llamada con "tu nombre" y otra llamada "test-tu nombre".
+10. En la rama "test-tu nombre" modifica el archivo conceptos.txt que está en tu carpeta personal, agregando una sección donde expliques el comando CHERRY-PICK, commitea ese cambio.
+11. Luego agregaras un nuevo archivo en blanco en esa misma carpeta, commiteas el cambio, y unirás el commit del punto anterior con este commit, para volverlo 1 solo.
+12. Después cambiarás el nombre de la rama "test-tu nombre" a "tu nombre - actualizada". 
+13. Después de eso, iras a la otra rama que creaste llamada "tu nombre" y te traerás el commit fusionado en la rama "tu nombre - actualizada".
+14. Por último, revisaras si la rama "tu nombre" se encuentra sincronizada con master, si no realizaras lo dicho en el punto 6.
+15. Realizarás el Pull Request para que sea revisado e integrado a Master.
+
