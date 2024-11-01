@@ -1,0 +1,24 @@
+Git clone git@github.com:Santiag0gopenux2024/PruebaSem1---Linux-Git.git
+
+
+git checkout -b Elkin
+
+
+mkdir Elkinperez
+
+mkdir Evidencias
+
+vim ComandosGit.txt
+
+mkdir src 
+
+
+
+
+
+
+
+git checkout Elkin
+
+
+git add ComandosGit.txt
